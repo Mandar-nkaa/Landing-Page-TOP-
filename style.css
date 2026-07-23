@@ -31,10 +31,15 @@ main {
     flex: 1;
 }
 
-h1 {
+h2 {
+    font-size: 24px;
+    margin: 16px 0px;
+}
+
+h1{
     color: #F9FAF8;
     margin: 0;
-    font-size: 48;
+    font-size: 48px;
     font-weight: 900;
 }
 
@@ -44,14 +49,14 @@ h1.btxt {
 }
 
 .btxt {
-    font-size: 24;
+    font-size: 24px;
     color: #F9FAF8;
     margin: 0;
 }
 
 .stxt {
     font-size: 18px;
-    color: #E5E7EBB3;
+    color: #E5E7EB99;
     margin: 0;
 }
 
@@ -86,4 +91,41 @@ h1.btxt {
     padding: 32px 16px;
     width: 600px;
     height: 150px;
+}
+
+#div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+#div5 {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.div6 {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    text-align: center;
+}
+
+.img1 {
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
+}
+
+#div7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    min-height: 200px;
 }
